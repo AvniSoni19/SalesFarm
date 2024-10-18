@@ -55,3 +55,5 @@ driver.quit()
 df = pd.DataFrame({"Job Title": Job_Title, "Company": Company, "Location": Location})
 df.to_csv("indeed.csv", index=False)
 
+
+

@@ -1,0 +1,15 @@
+with python,
+read naukri.html and parse it with BeautifulSoup
+
+find all
+article with class="jobTuple"
+for all the articles
+
+try find a with class="title ellipsis" and store it to Job_Title
+except Job_Title=[]
+try find a with class="subTitle ellipsis fleft" and store it to Company
+except Company=[]
+try find span with class="ellipsis fleft locWdth" and store it to Location
+except Location=[]
+
+open an excel file and write Job_Title, Company and Location
